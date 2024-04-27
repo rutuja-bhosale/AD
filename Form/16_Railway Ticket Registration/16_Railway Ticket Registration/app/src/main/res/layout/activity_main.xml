@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextName"
+        android:hint="Email"
+        android:padding="10dp"/>
+    <Spinner
+        android:id="@+id/spinnerBerthChoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="20dp"
+        android:entries="@array/subjects_array" />
+    <RadioGroup
+        android:id="@+id/radioGroupCities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerBerthChoice"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButtonPune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pune" />
+        <RadioButton
+            android:id="@+id/radioButtonNagar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nagar" />
+        <RadioButton
+            android:id="@+id/radioButtonGadchiroli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gadchiroli" />
+    </RadioGroup>
+    <CheckBox
+        android:id="@+id/checkBoxVeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radioGroupCities"
+        android:layout_marginTop="20dp"
+        android:text="Veg" />
+    <CheckBox
+        android:id="@+id/checkBoxNonveg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxVeg"
+        android:text="Nonveg" />
+    <CheckBox
+        android:id="@+id/checkBoxJain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxNonveg"
+        android:text="Jain" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"  android:layout_height="wrap_content" android:layout_below="@id/checkBoxJain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Submit" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_item_1"
+        android:title="AIDL" />
+    <item
+        android:id="@+id/context_item_2"
+        android:title="TESA" />
+    <item
+        android:id="@+id/context_item_3"
+        android:title="EESA"/>
+    <item
+        android:id="@+id/context_item_4"
+        android:title="MESA"/>
+    <item
+        android:id="@+id/context_item_5"
+        android:title="CESA"/>
+    <item
+        android:id="@+id/context_item_6"
+        android:title="ITSA"/>
+    <item
+        android:id="@+id/context_item_7"
+        android:title="NDLI"/>
+</menu>

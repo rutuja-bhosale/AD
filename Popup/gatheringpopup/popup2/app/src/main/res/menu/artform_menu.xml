@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_item_1"
+        android:title="Dance" />
+    <item
+        android:id="@+id/context_item_2"
+        android:title="Singing" />
+    <item
+        android:id="@+id/context_item_3"
+        android:title="Act"/>
+    <item
+        android:id="@+id/context_item_4"
+        android:title="StandupComedy"/>
+</menu>

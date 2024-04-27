@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects_array">
+        <item>Upper</item>
+        <item>Middle</item>
+        <item>Lower</item>
+
+    </string-array>
+</resources>

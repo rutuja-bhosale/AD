@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="enter_interest">Enter Interest</string>
+    <string name="enter_hometown">Enter Hometown</string>
+    <string name="click_for_branch">Click for Branch</string>
+    <string name="long_press_for_club">Long Press for Club</string>
+    <string-array name="year_options">
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Fourth Year</item>
+    </string-array>
+</resources>

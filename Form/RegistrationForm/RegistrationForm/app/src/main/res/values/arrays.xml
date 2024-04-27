@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects_array">
+        <item>JavaScript</item>
+        <item>Android Development</item>
+        <item>Advanced Java Development</item>
+        <item>Data Structure</item>
+    </string-array>
+</resources>

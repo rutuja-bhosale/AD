@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YourAppName</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="enter_interest">Enter Interest</string>
+    <string name="enter_hometown">Enter Hometown</string>
+    <string name="click_for_branch">Click for Branch</string>
+    <string name="long_press_for_club">Long Press for Club</string>
+    <string name="enter_song">enter song</string>
+</resources>
